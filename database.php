@@ -1,7 +1,7 @@
 <?php
 require "config.php";
 
-class DataBase
+class Database
 {
     public $connect;
     public $data;
