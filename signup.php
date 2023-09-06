@@ -1,5 +1,5 @@
 <?php
-require "DataBase.php";
+require "database.php";
 $db = new DataBase();
 if (isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['username']) && isset($_POST['password'])) {
     if ($db->dbConnect()) {
